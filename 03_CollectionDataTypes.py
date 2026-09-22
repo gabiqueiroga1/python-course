@@ -56,8 +56,8 @@ my_list = ['Wall', 'Floor', 'Roof', 'Ceiling','Wall', 'Floor', 'Roof', 'Ceiling'
 
 # List Methods (Built-In Functionality)
 
-another_list = ['Categorias', 'Maça', 'Banana', 'Uva', 'Melão']
-list_2 = ['Melancia', 'Pitaya']
+# another_list = ['Categorias', 'Maça', 'Banana', 'Uva', 'Melão']
+# list_2 = ['Melancia', 'Pitaya']
 
 # another_list.append('Melancia')             # Adiciona um único item na lista
 # another_list += list_2                      # Junta duas listas
@@ -65,7 +65,28 @@ list_2 = ['Melancia', 'Pitaya']
 # another_list.sort()                         # Ordena 
 # another_list.remove('Uva')                  # Remove da lista 
 
-print(another_list.count('Maça'))          # Retorna quantos itens 'Maça' tem na lista
-print(another_list.index('Banana'))
-print(another_list.insert(2, 'Mexerica'))
-print(another_list)
+# print(another_list.count('Maça'))          # Retorna quantos itens 'Maça' tem na lista
+# print(another_list.index('Banana'))
+# print(another_list.insert(2, 'Mexerica'))
+# print(another_list)
+
+# Replace Items
+
+# another_list = ['Categorias', 'Maça', 'Banana', 'Uva', 'Melão']
+# another_list[2] = 'NewItem'
+# another_list[-1] = 'LastItem'
+# another_list[1:3] = ['a', 'b']
+# print(another_list)
+
+# Nested Lists
+
+# points = [
+#     [0,0,0],
+#     [2,2,0],
+#     [4,4,0],
+#     [6,6,0],
+# ]
+
+# pt2 = points[1]
+# print(points[1] [2])
+# print(pt2[0], pt2[1], pt2[2])
